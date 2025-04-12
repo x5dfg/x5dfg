@@ -1,12 +1,42 @@
-- 👋 Hi, I’m @x5dfg
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+# Привет! Я разработчик 👋
 
-<!---
-x5dfg/x5dfg is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## 🧠 Немного обо мне
+
+Программировать начал с **Python** в 2023.  
+С 2024 года занимаюсь разработкой **сайтов** и **ботов**.  
+С 2025 года работаю над более сложными проектами с **БД** и **фреймворками**.
+
+---
+
+## 💻 Стек
+
+- **Языки:** Python, JavaScript, TypeScript
+- **Фреймворки:** Node.js, React, Next.js  
+- **Инструменты:** Git, Docker, SQLite/MongoDB, WebSocket/Socket.io
+
+---
+
+## 🔧 ПО
+Занимаюсь автоматизацией, парсингом, интеграциями и созданием ботов.
+
+---
+
+## 🎨 Фронтенд
+Работаю с React и Next.js, создаю динамичные и автономные страницы.
+
+---
+
+## 🔌 Бэкенд
+Использую **Python** и **Node.js** для разработки серверов, API и обработки данных.
+Фреймворки: **FastAPI**, **Next.js**, **Express.js** и **Flask (Для прототипизации)**
+---
+
+## 📁 Проекты
+- **[Проект 1](ссылка)** — описание
+- **[Проект 2](ссылка)** — описание
+- **[Проект 3](ссылка)** — описание
+
+---
+
+## 📫 Связь
+Если хотите пообщаться или сотрудничать — пишите мне на [email](mailto:you@example.com).
