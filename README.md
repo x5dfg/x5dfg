@@ -10,8 +10,8 @@
 
 ## 💻 Стек
 
-- **Языки:** Python, JavaScript, TypeScript
-- **Фреймворки:** Node.js, React, Next.js  
+- **Языки:** Python, JavaScript, Node.js
+- **Фреймворки:** React, Next.js, Express.js  
 - **Инструменты:** Git, Docker, SQLite/MongoDB, WebSocket/Socket.io
 
 ---
