@@ -20,7 +20,7 @@ jobs:
         run: npm install
 
       - name: Build project
-        run: vite build
+        run: npm run build
         env:
           ROLLUP_USE_PURE_JS: 1
 
