@@ -1,0 +1,39 @@
+:root {
+    --primary-bg-color: #0f0f0f;
+    --secondary-bg-color: #151515;
+    --other-bg-color: #202020;
+    --border-color: #303030;
+    --primary-text-color: #eeeeee;
+    --secondary-text-color: #d3d3d3;
+    --muted-text-color: #aaaaaa;
+
+    --accent-color: #ffeb79;
+
+    --primary-border-radius: 10px;
+    --secondary-border-radius: 6px;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--border-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--accent-color); 
+    border-radius: var(--primary-border-radius);
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--secondary-bg-color);
+    border-radius: var(--primary-border-radius);
+}
+
+::selection {
+    background: var(--accent-color); 
+    color: initial;
+}

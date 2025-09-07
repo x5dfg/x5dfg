@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Astrocreate",
+        "icon_url": "/content/icon/rocket.gif",
+        "prew_url": "/content/prew/astrocreate.png",
+        "link_url": "astrocreate",
+        "public": true
+    },
+    {
+        "title": "Hasher",
+        "icon_url": "...",
+        "prew_url": "...",
+        "link_url": "hasher",
+        "public": true
+    },
+    {
+        "title": "Palettron",
+        "icon_url": "...",
+        "prew_url": "/content/prew/palettron.png",
+        "link_url": "palettron",
+        "public": true
+    }
+]

@@ -1,0 +1,53 @@
+@import url(./root.css);
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  color: var(--muted-text-color);
+  text-decoration: none;
+
+  &:hover, &:focus {
+    color: var(--secondary-text-color);
+  }
+}
+
+h2 {
+  margin: 0;
+  font-weight: 400;
+}
+
+html, body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  caret-color: var(--accent-color);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+}

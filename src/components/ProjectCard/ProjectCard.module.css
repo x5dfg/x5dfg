@@ -1,0 +1,38 @@
+.Card {
+    border: 1px solid var(--border-color);
+    border-radius: var(--primary-border-radius);
+    background-color: var(--secondary-bg-color);
+    transition: all ease-in-out 0.1s;
+    
+    &:hover {
+        transform: scale(1.02);
+        background-color: var(--other-bg-color);
+    }
+}
+
+.Details {
+    padding: 10px;
+}
+
+.Icon {
+    aspect-ratio: 1;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+}
+
+.Preview {
+    width: 300px;
+    border-radius: var(--primary-border-radius) var(--primary-border-radius) 0 0;
+}
+
+.IconAndTitle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    color: var(--secondary-text-color);
+
+}

@@ -1,0 +1,68 @@
+.Header {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    box-sizing: border-box;
+    background-color: var(--secondary-bg-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.Title {
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: var(--primary-text-color);
+}
+
+.MiniCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.Login {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Avatar {
+    aspect-ratio: 1;
+    width: 32px;
+    border-radius: 100%;
+}
+
+.PopupMenu {
+    position: absolute;
+    top: 60px; 
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: var(--secondary-border-radius);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    min-width: 160px;
+    z-index: 1000;
+    padding: 6px 0;
+}
+
+.PopupMenu a {
+    padding: 8px 12px;
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-size: 14px;
+    transition: background-color 0.2s;
+
+    &:hover {
+        background-color: var(--other-bg-color);
+    }
+}
