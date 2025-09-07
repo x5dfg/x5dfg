@@ -17,10 +17,12 @@ jobs:
           node-version: 18
 
       - name: Install deps
-        run: npm install --legacy-peer-deps
+        run: npm install
 
       - name: Build project
-        run: npm run build
+        run: vite build
+        env:
+          ROLLUP_USE_PURE_JS: 1
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
