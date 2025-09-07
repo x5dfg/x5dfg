@@ -17,7 +17,7 @@ jobs:
           node-version: 18
 
       - name: Install deps
-        run: npm ci
+        run: npm install --legacy-peer-deps
 
       - name: Build project
         run: npm run build
